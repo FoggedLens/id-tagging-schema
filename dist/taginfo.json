@@ -12,7 +12,7 @@
         {
             "key": "camera:type",
             "value": "fixed",
-            "description": "🄿 ALPR, 🄵🅅 Camera Type: Fixed",
+            "description": "🄿 Automated License Plate Reader, 🄵🅅 Camera Type: Fixed",
             "object_types": [
                 "node"
             ],
@@ -28,18 +28,28 @@
         },
         {
             "key": "manufacturer",
-            "value": "Axis Communications",
-            "description": "🄵🅅 Manufacturer: Axis Communications"
+            "value": "Flock Safety",
+            "description": "🄵🅅 Manufacturer: `Flock Safety`"
         },
         {
             "key": "manufacturer",
-            "value": "Hikvision",
-            "description": "🄵🅅 Manufacturer: Hikvision"
+            "value": "Motorola Solutions",
+            "description": "🄵🅅 Manufacturer: `Motorola Solutions`"
         },
         {
             "key": "manufacturer",
-            "value": "Dahua Technology",
-            "description": "🄵🅅 Manufacturer: Dahua Technology"
+            "value": "Genetec",
+            "description": "🄵🅅 Manufacturer: `Genetec`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Leonardo",
+            "description": "🄵🅅 Manufacturer: `Leonardo`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Neology, Inc.",
+            "description": "🄵🅅 Manufacturer: `Neology, Inc.`"
         },
         {
             "key": "surveillance:zone",

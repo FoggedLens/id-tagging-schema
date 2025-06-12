@@ -20,5 +20,5 @@
         "surveillance:type": "ALPR",
         "camera:type": "fixed"
     },
-    "name": "ALPR"
+    "name": "Automated License Plate Reader"
 }

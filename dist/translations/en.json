@@ -8,12 +8,7 @@
                 },
                 "manufacturer": {
                     "label": "Manufacturer",
-                    "placeholder": "Select a manufacturer",
-                    "options": {
-                        "Axis Communications": "Axis Communications",
-                        "Hikvision": "Hikvision",
-                        "Dahua Technology": "Dahua Technology"
-                    }
+                    "placeholder": "Select a manufacturer"
                 },
                 "surveillance/zone": {
                     "label": "Surveillance Zone"
@@ -44,7 +39,7 @@
             },
             "presets": {
                 "man_made/surveillance/camera": {
-                    "name": "ALPR"
+                    "name": "Automated License Plate Reader"
                 }
             }
         }

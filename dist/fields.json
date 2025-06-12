@@ -7,9 +7,11 @@
         "key": "manufacturer",
         "type": "combo",
         "options": [
-            "Axis Communications",
-            "Hikvision",
-            "Dahua Technology"
+            "Flock Safety",
+            "Motorola Solutions",
+            "Genetec",
+            "Leonardo",
+            "Neology, Inc."
         ]
     },
     "surveillance/zone": {
