@@ -8,14 +8,13 @@
         "fields": [
             "surveillance",
             "surveillance/type",
+            "manufacturer",
             "camera/type",
             "camera/mount",
             "camera/direction",
             "surveillance/zone"
         ],
-        "moreFields": [
-            "manufacturer/wikidata"
-        ],
+        "moreFields": [],
         "tags": {
             "man_made": "surveillance",
             "surveillance:type": "ALPR",

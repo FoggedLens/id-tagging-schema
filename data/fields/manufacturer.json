@@ -1,0 +1,13 @@
+{
+  "key": "manufacturer",
+  "type": "combo",
+  "label": "Manufacturer",
+  "placeholder": "Select a manufacturer",
+  "options": [
+      "Flock Safety",
+      "Motorola Solutions",
+      "Genetec",
+      "Leonardo",
+      "Neology, Inc."
+  ]
+}

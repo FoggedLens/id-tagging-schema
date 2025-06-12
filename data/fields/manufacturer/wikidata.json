@@ -1,9 +1,0 @@
-{
-    "key": "manufacturer:wikidata",
-    "keys": [
-        "manufacturer:wikidata",
-        "manufacturer:wikipedia"
-    ],
-    "type": "wikidata",
-    "label": "Manufacturer Wikidata"
-}

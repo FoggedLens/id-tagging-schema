@@ -23,6 +23,25 @@
             "description": "🄵 Surveillance Kind"
         },
         {
+            "key": "manufacturer",
+            "description": "🄵 Manufacturer"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Axis Communications",
+            "description": "🄵🅅 Manufacturer: Axis Communications"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Hikvision",
+            "description": "🄵🅅 Manufacturer: Hikvision"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Dahua Technology",
+            "description": "🄵🅅 Manufacturer: Dahua Technology"
+        },
+        {
             "key": "surveillance:zone",
             "description": "🄵 Surveillance Zone"
         },
@@ -44,14 +63,6 @@
             "key": "surveillance:type",
             "value": "ALPR",
             "description": "🄵🅅 Surveillance Type: Automatic License Plate Reader"
-        },
-        {
-            "key": "manufacturer:wikidata",
-            "description": "🄵 Manufacturer Wikidata"
-        },
-        {
-            "key": "manufacturer:wikipedia",
-            "description": "🄵 Manufacturer Wikidata"
         },
         {
             "key": "camera:type",

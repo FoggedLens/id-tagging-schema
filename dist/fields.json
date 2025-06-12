@@ -3,6 +3,15 @@
         "key": "surveillance",
         "type": "combo"
     },
+    "manufacturer": {
+        "key": "manufacturer",
+        "type": "combo",
+        "options": [
+            "Axis Communications",
+            "Hikvision",
+            "Dahua Technology"
+        ]
+    },
     "surveillance/zone": {
         "key": "surveillance:zone",
         "type": "combo"
@@ -17,14 +26,6 @@
             "guard",
             "ALPR"
         ]
-    },
-    "manufacturer/wikidata": {
-        "key": "manufacturer:wikidata",
-        "keys": [
-            "manufacturer:wikidata",
-            "manufacturer:wikipedia"
-        ],
-        "type": "wikidata"
     },
     "camera/type": {
         "key": "camera:type",
