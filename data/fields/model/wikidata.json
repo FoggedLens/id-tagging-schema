@@ -1,9 +1,0 @@
-{
-    "key": "model:wikidata",
-    "keys": [
-        "model:wikidata",
-        "model:wikipedia"
-    ],
-    "type": "wikidata",
-    "label": "Model Wikidata"
-}

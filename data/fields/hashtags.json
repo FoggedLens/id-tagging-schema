@@ -1,9 +1,0 @@
-{
-    "key": "hashtags",
-    "type": "semiCombo",
-    "label": "Hashtags",
-    "usage": "changeset",
-    "placeholder": "#example",
-    "autoSuggestions": false,
-    "caseSensitive": true
-}

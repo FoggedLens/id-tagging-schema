@@ -10,29 +10,16 @@
         "camera/type",
         "camera/mount",
         "camera/direction",
-        "surveillance/zone",
-        "contact/webcam"
+        "surveillance/zone"
     ],
     "moreFields": [
-        "manufacturer"
+        "manufacturer/wikidata"
     ],
-    "terms": [
-        "anpr",
-        "alpr",
-        "camera",
-        "car plate recognition",
-        "cctv",
-        "guard",
-        "license plate recognition",
-        "monitoring",
-        "number plate recognition",
-        "security",
-        "video",
-        "webcam"
-    ],
+    "terms": [],
     "tags": {
         "man_made": "surveillance",
-        "surveillance:type": "camera"
+        "surveillance:type": "ALPR",
+        "camera:type": "fixed"
     },
-    "name": "Surveillance Camera"
+    "name": "ALPR"
 }
