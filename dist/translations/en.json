@@ -20,10 +20,6 @@
                 "manufacturer/wikidata": {
                     "label": "Manufacturer Wikidata"
                 },
-                "contact/webcam": {
-                    "label": "Webcam URL",
-                    "placeholder": "http://example.com/"
-                },
                 "camera/type": {
                     "label": "Camera Type",
                     "options": {

@@ -26,10 +26,6 @@
         ],
         "type": "wikidata"
     },
-    "contact/webcam": {
-        "key": "contact:webcam",
-        "type": "url"
-    },
     "camera/type": {
         "key": "camera:type",
         "type": "combo",
@@ -46,7 +42,7 @@
         "type": "combo"
     },
     "camera/direction": {
-        "key": "camera:direction",
+        "key": "direction",
         "type": "number",
         "increment": 5
     }

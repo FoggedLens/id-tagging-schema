@@ -54,10 +54,6 @@
             "description": "🄵 Manufacturer Wikidata"
         },
         {
-            "key": "contact:webcam",
-            "description": "🄵 Webcam URL"
-        },
-        {
             "key": "camera:type",
             "description": "🄵 Camera Type"
         },
@@ -76,7 +72,7 @@
             "description": "🄵 Camera Mount"
         },
         {
-            "key": "camera:direction",
+            "key": "direction",
             "description": "🄵 Direction (Degrees Clockwise)"
         },
         {

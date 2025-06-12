@@ -11,8 +11,7 @@
             "camera/type",
             "camera/mount",
             "camera/direction",
-            "surveillance/zone",
-            "contact/webcam"
+            "surveillance/zone"
         ],
         "moreFields": [
             "manufacturer/wikidata"
