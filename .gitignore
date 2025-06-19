@@ -4,6 +4,8 @@
 /node_modules/
 /.tx/tmp/
 npm-debug.log
+target/
+.terraform*
 
 transifex.auth
 interim
