@@ -6637,6 +6637,15 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/security_camera.svg"
         },
         {
+            "key": "camera:mount",
+            "value": "fixed",
+            "description": "🄿 License Plate Reader",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/security_camera.svg"
+        },
+        {
             "key": "street_cabinet",
             "value": "waste",
             "description": "🄿 Private Waste Collection Cabinet",
@@ -8708,6 +8717,15 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/ruins.svg"
+        },
+        {
+            "key": "historic",
+            "value": "aircraft",
+            "description": "🄿 Historic Aircraft",
+            "object_types": [
+                "node",
+                "area"
+            ]
         },
         {
             "key": "memorial",
@@ -14750,6 +14768,16 @@
         },
         {
             "key": "cuisine",
+            "value": "tea",
+            "description": "🄿 Teahouse, 🄵🅅 Cuisines: Tea",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/cafe.svg"
+        },
+        {
+            "key": "cuisine",
             "value": "coffee_shop",
             "description": "🄿 Coffeehouse, 🄵🅅 Cuisines: Coffee Shop",
             "object_types": [
@@ -18921,7 +18949,7 @@
         },
         {
             "key": "dog",
-            "description": "🄵 Dogs"
+            "description": "🄵 Dogs, 🄵 Suitable For Dogs"
         },
         {
             "key": "dog",
@@ -19326,11 +19354,6 @@
             "key": "cuisine",
             "value": "friture",
             "description": "🄵🅅 Cuisines: Friterie"
-        },
-        {
-            "key": "cuisine",
-            "value": "tea",
-            "description": "🄵🅅 Cuisines: Tea"
         },
         {
             "key": "cuisine",
@@ -21572,6 +21595,74 @@
             "description": "🄵 Rotor Diameter (Meters)"
         },
         {
+            "key": "roof:shape",
+            "description": "🄵 Roof Shape"
+        },
+        {
+            "key": "roof:shape",
+            "value": "flat",
+            "description": "🄵🅅 Roof Shape: Flat"
+        },
+        {
+            "key": "roof:shape",
+            "value": "gabled",
+            "description": "🄵🅅 Roof Shape: Gabled"
+        },
+        {
+            "key": "roof:shape",
+            "value": "skillion",
+            "description": "🄵🅅 Roof Shape: Skillion"
+        },
+        {
+            "key": "roof:shape",
+            "value": "hipped",
+            "description": "🄵🅅 Roof Shape: Hipped"
+        },
+        {
+            "key": "roof:shape",
+            "value": "half-hipped",
+            "description": "🄵🅅 Roof Shape: Half-Hipped"
+        },
+        {
+            "key": "roof:shape",
+            "value": "mansard",
+            "description": "🄵🅅 Roof Shape: Mansard"
+        },
+        {
+            "key": "roof:shape",
+            "value": "gambrel",
+            "description": "🄵🅅 Roof Shape: Gambrel"
+        },
+        {
+            "key": "roof:shape",
+            "value": "pyramidal",
+            "description": "🄵🅅 Roof Shape: Pyramidal"
+        },
+        {
+            "key": "roof:shape",
+            "value": "cone",
+            "description": "🄵🅅 Roof Shape: Cone"
+        },
+        {
+            "key": "roof:shape",
+            "value": "dome",
+            "description": "🄵🅅 Roof Shape: Dome"
+        },
+        {
+            "key": "roof:shape",
+            "value": "onion",
+            "description": "🄵🅅 Roof Shape: Onion"
+        },
+        {
+            "key": "roof:shape",
+            "value": "round",
+            "description": "🄵🅅 Roof Shape: Round"
+        },
+        {
+            "key": "roof:height",
+            "description": "🄵 Roof Height (Meters)"
+        },
+        {
             "key": "roof:colour",
             "description": "🄵 Roof Color"
         },
@@ -22160,6 +22251,14 @@
             "description": "🄵🅅 IMBA Trail Difficulty: ◆◆ Extremely Difficult (double black diamond)"
         },
         {
+            "key": "model:wikidata",
+            "description": "🄵 Model Wikidata"
+        },
+        {
+            "key": "model:wikipedia",
+            "description": "🄵 Model Wikidata"
+        },
+        {
             "key": "memorial:addr:city",
             "description": "🄵 Nearest Building Address"
         },
@@ -22198,6 +22297,14 @@
         {
             "key": "maxspeed:advisory",
             "description": "🄵 Advisory Speed Limit"
+        },
+        {
+            "key": "manufacturer:wikidata",
+            "description": "🄵 Manufacturer Wikidata"
+        },
+        {
+            "key": "manufacturer:wikipedia",
+            "description": "🄵 Manufacturer Wikidata"
         },
         {
             "key": "lift_gate:type",
@@ -23112,8 +23219,34 @@
             "description": "🄵 Camera Mount"
         },
         {
-            "key": "camera:direction",
-            "description": "🄵 Direction (Degrees Clockwise)"
+            "key": "manufacturer",
+            "value": "Flock Safety",
+            "description": "🄵🅅 Manufacturer: `Flock Safety`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Motorola Solutions",
+            "description": "🄵🅅 Manufacturer: `Motorola Solutions`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Genetec",
+            "description": "🄵🅅 Manufacturer: `Genetec`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Leonardo",
+            "description": "🄵🅅 Manufacturer: `Leonardo`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Neology, Inc.",
+            "description": "🄵🅅 Manufacturer: `Neology, Inc.`"
+        },
+        {
+            "key": "manufacturer",
+            "value": "Insight",
+            "description": "🄵🅅 Manufacturer: `Insight`"
         },
         {
             "key": "building:prefabricated",
@@ -23179,6 +23312,45 @@
         {
             "key": "bath:open_air",
             "description": "🄵 Open Air"
+        },
+        {
+            "key": "aircraft:type",
+            "description": "🄵 Type"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "military",
+            "description": "🄵🅅 Type: Military"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "helicopter",
+            "description": "🄵🅅 Type: Helicopter"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "airliner",
+            "description": "🄵🅅 Type: Airliner"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "jet",
+            "description": "🄵🅅 Type: Jet"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "fixed_wing",
+            "description": "🄵🅅 Type: Fixed Wing"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "cargo",
+            "description": "🄵🅅 Type: Cargo"
+        },
+        {
+            "key": "aircraft:type",
+            "value": "glider",
+            "description": "🄵🅅 Type: Glider"
         },
         {
             "key": "aerialway:occupancy",

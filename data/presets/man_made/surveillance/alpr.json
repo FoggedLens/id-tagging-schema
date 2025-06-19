@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-security_camera",
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "fields": [
+        "surveillance",
+        "surveillance/type",
+        "camera/type",
+        "camera/direction",
+        "camera/manufacturer",
+        "surveillance/zone"
+    ],
+    "tags": {
+        "man_made": "surveillance",
+        "surveillance:type": "ALPR",
+        "camera:mount": "fixed"
+    },
+    "name": "License Plate Reader"
+}

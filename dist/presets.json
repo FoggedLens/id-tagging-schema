@@ -355,7 +355,9 @@
             "height",
             "building/material",
             "building/colour",
-            "roof/colour"
+            "roof/colour",
+            "roof/height",
+            "roof/shape"
         ],
         "moreFields": [
             "layer"
@@ -389,6 +391,8 @@
             "not/name",
             "operator",
             "roof/colour",
+            "roof/shape",
+            "roof/height",
             "smoking",
             "wheelchair"
         ],
@@ -9567,7 +9571,8 @@
             "species/wikidata",
             "taxon",
             "diameter_crown",
-            "diameter"
+            "diameter",
+            "ref"
         ],
         "geometry": [
             "point",
@@ -11815,7 +11820,8 @@
         "icon": "maki-observation-tower",
         "moreFields": [
             "{man_made/tower}",
-            "opening_hours"
+            "opening_hours",
+            "direction"
         ],
         "geometry": [
             "point",
@@ -11999,6 +12005,26 @@
         "tags": {
             "man_made": "surveillance",
             "surveillance:type": "camera"
+        }
+    },
+    "man_made/surveillance/alpr": {
+        "icon": "temaki-security_camera",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "surveillance",
+            "surveillance/type",
+            "camera/type",
+            "camera/direction",
+            "camera/manufacturer",
+            "surveillance/zone"
+        ],
+        "tags": {
+            "man_made": "surveillance",
+            "surveillance:type": "ALPR",
+            "camera:mount": "fixed"
         }
     },
     "man_made/street_cabinet/waste": {
@@ -16264,6 +16290,29 @@
         ],
         "tags": {
             "historic": "archaeological_site"
+        }
+    },
+    "historic/aircraft": {
+        "icon": "roentgen-plane",
+        "fields": [
+            "name",
+            "start_date",
+            "aircraft/type",
+            "model"
+        ],
+        "moreFields": [
+            "ref",
+            "model/wikidata",
+            "manufacturer",
+            "manufacturer/wikidata",
+            "description"
+        ],
+        "geometry": [
+            "point",
+            "area"
+        ],
+        "tags": {
+            "historic": "aircraft"
         }
     },
     "historic/memorial/stolperstein-EU": {
@@ -21040,7 +21089,9 @@
             "gnis/feature_id-US",
             "not/name",
             "operator",
-            "roof/colour"
+            "roof/colour",
+            "roof/shape",
+            "roof/height"
         ],
         "geometry": [
             "area"
@@ -25162,6 +25213,7 @@
         "moreFields": [
             "bottle",
             "covered",
+            "dog_check",
             "indoor",
             "level",
             "lit"
@@ -29058,6 +29110,21 @@
         "reference": {
             "key": "amenity",
             "value": "clinic"
+        }
+    },
+    "amenity/cafe/teahouse": {
+        "icon": "maki-cafe",
+        "geometry": [
+            "point",
+            "area"
+        ],
+        "tags": {
+            "amenity": "cafe",
+            "cuisine": "tea"
+        },
+        "reference": {
+            "key": "amenity",
+            "value": "cafe"
         }
     },
     "amenity/cafe/coffee_shop": {

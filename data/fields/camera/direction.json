@@ -1,5 +1,5 @@
 {
-    "key": "camera:direction",
+    "key": "direction",
     "type": "number",
     "label": "Direction (Degrees Clockwise)",
     "increment": 5,

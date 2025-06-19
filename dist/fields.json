@@ -2829,6 +2829,10 @@
         "autoSuggestions": false,
         "customValues": false
     },
+    "dog_check": {
+        "key": "dog",
+        "type": "check"
+    },
     "dog": {
         "key": "dog",
         "type": "combo",
@@ -4727,6 +4731,31 @@
         "minValue": 0,
         "type": "number"
     },
+    "roof/shape": {
+        "key": "roof:shape",
+        "type": "combo",
+        "autoSuggestions": true,
+        "customValues": false,
+        "options": [
+            "flat",
+            "gabled",
+            "skillion",
+            "hipped",
+            "half-hipped",
+            "mansard",
+            "gambrel",
+            "pyramidal",
+            "cone",
+            "dome",
+            "onion",
+            "round"
+        ]
+    },
+    "roof/height": {
+        "key": "roof:height",
+        "minValue": 0,
+        "type": "number"
+    },
     "roof/colour": {
         "key": "roof:colour",
         "type": "colour"
@@ -5267,6 +5296,14 @@
             "4"
         ]
     },
+    "model/wikidata": {
+        "key": "model:wikidata",
+        "keys": [
+            "model:wikidata",
+            "model:wikipedia"
+        ],
+        "type": "wikidata"
+    },
     "memorial/addr_subtags": {
         "type": "address",
         "key": "memorial:addr",
@@ -5302,6 +5339,14 @@
     "maxspeed/advisory": {
         "key": "maxspeed:advisory",
         "type": "roadspeed"
+    },
+    "manufacturer/wikidata": {
+        "key": "manufacturer:wikidata",
+        "keys": [
+            "manufacturer:wikidata",
+            "manufacturer:wikipedia"
+        ],
+        "type": "wikidata"
     },
     "lift_gate/type": {
         "key": "lift_gate:type",
@@ -6078,8 +6123,21 @@
         "key": "camera:mount",
         "type": "combo"
     },
+    "camera/manufacturer": {
+        "key": "manufacturer",
+        "type": "combo",
+        "options": [
+            "Flock Safety",
+            "Motorola Solutions",
+            "Genetec",
+            "Leonardo",
+            "Neology, Inc.",
+            "Insight"
+        ],
+        "default": "Flock Safety"
+    },
     "camera/direction": {
-        "key": "camera:direction",
+        "key": "direction",
         "type": "number",
         "increment": 5
     },
@@ -6163,6 +6221,19 @@
     "area/highway": {
         "key": "area:highway",
         "type": "typeCombo"
+    },
+    "aircraft/type": {
+        "key": "aircraft:type",
+        "type": "semiCombo",
+        "options": [
+            "military",
+            "helicopter",
+            "airliner",
+            "jet",
+            "fixed_wing",
+            "cargo",
+            "glider"
+        ]
     },
     "aerialway/occupancy": {
         "key": "aerialway:occupancy",
